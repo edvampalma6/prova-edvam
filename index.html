@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title> Salary Paycheck </title>
+</head>
+
+<body>
+
+    <section class="container">
+        <form action="calcsalary.php" method="post">
+            <fieldset>
+                <legend>Salary Paycheck Calculator</legend>
+                <label>
+                    Salary
+                    <input type="number" name="salary" value="">
+                    <input type="submit" value="Calcular" />
+
+                    <span class="result"></span>
+
+                </label>
+                <br></br>
+                <br> INSS:
+                </br>
+
+                <br> IRPF:
+                </br>
+                <br> Liquid Salary:
+                </br>
+            </fieldset>
+        </form>
+
+
+    </section>
+<script src="services/php/calcSalary.php"></script>
+
+</body>
+
+</html>
